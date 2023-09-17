@@ -69,3 +69,39 @@ footer {
     font-family: var(--fonte-principal);
 
 }
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode h1 {
+    color: #ffffff;
+}
+
+.dark-mode .input-container label {
+    color: #ffffff;
+}
+
+body.dark-mode footer {
+    color: #ffffff;
+}
+
+.button-dark-mode {
+    position: fixed;
+    bottom: 20px;
+    left: 20px; 
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.button-dark-mode:hover {
+    background-color: #555;
+    color: var(--branco);
+}
+
